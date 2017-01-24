@@ -1,0 +1,165 @@
+including vendor/aosip/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+Fetching project platform_external_zlib
+Fetching project platform_packages_providers_MediaProvider
+Fetching project platform_system_vold
+Fetching project device_qcom_common
+Fetching project platform_vendor_qcom_opensource_bluetooth
+Fetching project platform_external_mksh
+Fetching project platform_system_qcom
+Fetching project platform_vendor_qcom-opensource_fm
+Fetching project platform_external_ntfs-3g
+Fetching project platform_external_fsck_msdos
+Fetching project platform_packages_apps_OwlsNest
+Fetching project platform_external_okhttp
+Fetching project platform_frameworks_av
+Fetching project platform_packages_apps_OmniSwitch
+Fetching project android_hardware_qcom_media
+Fetching project android_external_libncurses
+Fetching project platform_external_f2fs-tools
+Fetching project platform_packages_apps_Dialer
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_external_wpa_supplicant_8
+Fetching project platform_hardware_ril
+Fetching project platform_packages_inputmethods_LatinIME
+Fetching project platform_vendor_qcom-opensource_dataservices
+Fetching project platform_system_core
+Fetching project platform_packages_apps_DUI
+Fetching project android_hardware_qcom_gps
+Fetching project platform_external_DUtils
+Fetching project TeamSubstratum/masquerade
+Fetching project platform_packages_providers_DownloadProvider
+Fetching project platform_build_kati
+Fetching project platform_system_extras
+Fetching project platform_frameworks_opt_telephony
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_external_skia
+Fetching project platform_packages_apps_Bluetooth
+Fetching project platform_external_tinyalsa
+Fetching project platform_frameworks_native
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_hardware_libhardware
+Fetching project android_hardware_qcom_display
+Fetching project platform_art
+Fetching project platform_external_bash
+Fetching project platform_frameworks_support
+Fetching project platform_external_google
+Fetching project platform_packages_apps_CalendarWidget
+Fetching project platform_manifest
+Fetching project platform_packages_apps_Messaging
+Fetching project platform_packages_apps_LockClock
+Fetching project platform_hardware_ril
+Fetching project platform_bionic
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_external_exfat
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_packages_services_Telephony
+Fetching project platform_system_bt
+Fetching project platform_external_busybox
+Fetching project platform_external_connectivity
+Fetching project platform_hardware_ril
+Fetching project platform_packages_apps_OmniStyle
+Fetching project platform_packages_apps_Settings
+Fetching project platform_packages_services_Telecomm
+Fetching project android_hardware_qcom_audio
+Fetching project platform_hardware_qcom_keymaster
+Fetching project platform_packages_apps_PackageInstaller
+Fetching project platform_vendor_aosip
+Fetching project android_hardware_qcom_camera
+Fetching project platform_external_e2fsprogs
+Fetching project platform_frameworks_base
+Fetching project platform_external_tinycompress
+Fetching project platform_external_ant-wireless_ant_native
+Fetching project device_qcom_sepolicy
+Fetching project platform_external_ant-wireless_antradio-library
+Fetching project platform_vendor_qcom-opensource_dpm
+Fetching project platform_system_sepolicy
+Fetching project platform_system_media
+Fetching project platform_build
+Fetching project platform_hardware_ril
+Fetching project platform_external_fuse
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_hardware_qcom_bt
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=7.1.1
+TARGET_PRODUCT=aosp_arm
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.4.0-59-generic-x86_64-with-Ubuntu-16.04-xenial
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=NMF26F
+OUT_DIR=/home/akhil/n-mr1/out
+============================================
+echo '// +build ignore' > /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.cc
+echo >> /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.cc
+echo 'const char* kGitVersion = "ac84970509fa4e14d55abad12fdf6decf75f76dd";' >> /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.cc
+prebuilts/clang/host/linux-x86/clang-2690385/bin/clang++   -fno-exceptions -Wno-multichar -m64 -Wa,--noexecstack -fPIC -no-canonical-prefixes -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -O2 -g -fno-strict-aliasing -DNDEBUG -UDEBUG  -D__compiler_offsetof=__builtin_offsetof -Werror=int-conversion -Wno-reserved-id-macro -Wno-format-pedantic -Wno-unused-command-line-argument   --gcc-toolchain=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 -fstack-protector-strong    --gcc-toolchain=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 --sysroot prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot -Bprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/bin -target x86_64-linux-gnu   -Wsign-promo  -Wno-inconsistent-missing-override   --gcc-toolchain=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 --sysroot prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot -isystem prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/include/c++/4.8 -isystem prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/include/c++/4.8/x86_64-linux -isystem prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/include/c++/4.8/backward -target x86_64-linux-gnu -c -std=c++11 -g -W -Wall -MMD -MP -O -DNOLOG -march=native -o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.cc
+prebuilts/clang/host/linux-x86/clang-2690385/bin/clang++   -m64 -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--no-undefined-version    --gcc-toolchain=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 --sysroot prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot -Bprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/bin -Bprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/lib/gcc/x86_64-linux/4.8 -Lprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/lib/gcc/x86_64-linux/4.8 -Lprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/lib64/ -target x86_64-linux-gnu -static -Wl,--whole-archive -lpthread -Wl,--no-whole-archive -ldl -std=c++11 -g -W -Wall -MMD -MP -O -DNOLOG -march=native -o /home/akhil/n-mr1/out/host/linux-x86/bin/ckati /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/affinity.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/command.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/dep.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/eval.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/exec.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/expr.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/file.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/file_cache.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/fileutil.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/find.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/flags.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/func.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/io.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/log.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/main.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/ninja.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/parser.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/regen.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/rule.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/stats.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/stmt.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/string_piece.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/stringprintf.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/strutil.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/symtab.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/thread_pool.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/timeutil.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/var.o /home/akhil/n-mr1/out/host/linux-x86/obj/EXECUTABLES/ckati_intermediates/version.o -lrt -lpthread
+sem_open.c:333: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+Running kati to generate build-aosp_arm-clobber.ninja...
+/home/akhil/n-mr1/out/build-aosp_arm-clobber.ninja is missing, regenerating...
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=7.1.1
+TARGET_PRODUCT=aosp_arm
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.4.0-59-generic-x86_64-with-Ubuntu-16.04-xenial
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=NMF26F
+OUT_DIR=/home/akhil/n-mr1/out
+============================================
+Starting build with ninja
+ninja: Entering directory `.'
+[100% 1/1] Entire build directory removed.
+
+[0;32m#### make completed successfully (45 seconds) ####[00m
+
+Set cache size limit to 25.0 GB
+build/core/product_config.mk:239: *** Can not locate config makefile for product "aosp_arm".  Stop.
+
+[0;31m#### make failed to build some targets  ####[00m
+
+BUILD FAILED
+Stopping jack server
+Stopping background server
