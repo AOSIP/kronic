@@ -35,6 +35,8 @@ echo -e "Stopping jack server" >> $logfile;
 
 echo -e "Pushing logs up!";
 cd kronic;
-git add -A; git commit -asm $(date +%Y%m%d); git fetch origin master; git rebase origin/master; git push origin master;
+echo "$device $(date +%y%m%d)" > /tmp/kronicmessage
+git add -A; git commit -asF /tmp/kronicmessage; git fetch origin master; git rebase origin/master; git push origin master;
 cd -;
+rm -fv /tmp/kronicmessage
 
