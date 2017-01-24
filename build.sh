@@ -12,7 +12,7 @@ if [ -z $device ];
 	echo -e "No device found, exiting!" >> $logfile
 	exit 1
 fi
-lunch aosip_$device-userdebug 2>&1 | tee -a $logfile
+lunch aosip_$device-userdebug
 export USE_CCACHE=1
 export CCACHE_DIR=${HOME}/.ccache-${device}
 ccache -M 25G >> $logfile
