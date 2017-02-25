@@ -1,0 +1,110 @@
+including vendor/aosip/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+Fetching project platform_external_zlib
+Fetching project platform_packages_providers_MediaProvider
+Fetching project platform_system_vold
+Fetching project device_qcom_common
+Fetching project platform_vendor_qcom_opensource_bluetooth
+Fetching project platform_external_mksh
+Fetching project platform_system_qcom
+Fetching project platform_vendor_qcom-opensource_fm
+Fetching project platform_external_ntfs-3g
+Fetching project platform_external_fsck_msdos
+Fetching project platform_packages_apps_OwlsNest
+Fetching project platform_external_okhttp
+Fetching project platform_frameworks_av
+Fetching project platform_packages_apps_OmniSwitch
+Fetching project android_hardware_qcom_media
+Fetching project android_external_libncurses
+Fetching project platform_external_f2fs-tools
+Fetching project platform_packages_apps_Dialer
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_external_wpa_supplicant_8
+Fetching project platform_hardware_ril
+Fetching project platform_packages_inputmethods_LatinIME
+Fetching project platform_packages_providers_DownloadProvider
+Fetching project platform_system_netd
+Fetching project platform_system_core
+Fetching project platform_packages_apps_DUI
+Fetching project android_hardware_qcom_gps
+Fetching project platform_external_DUtils
+Fetching project TeamSubstratum/masquerade
+Fetching project android_hardware_broadcom_wlan
+Fetching project platform_build_kati
+Fetching project platform_system_extras
+Fetching project platform_frameworks_opt_telephony
+Fetching project platform_external_skia
+Fetching project platform_packages_apps_Bluetooth
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_hardware_ril
+Fetching project platform_external_tinyalsa
+Fetching project platform_frameworks_native
+Fetching project platform_hardware_libhardware
+Fetching project android_hardware_qcom_display
+Fetching project platform_art
+Fetching project platform_packages_providers_TelephonyProvider
+Fetching project platform_external_bash
+Fetching project platform_frameworks_support
+Fetching project platform_external_google
+Fetching project platform_packages_apps_CalendarWidget
+Fetching project platform_manifest
+Fetching project platform_packages_apps_Messaging
+Fetching project platform_packages_apps_LockClock
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_hardware_ril
+Fetching project platform_bionic
+Fetching project android_external_libnfc-nxp
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_system_sepolicy
+Fetching project platform_external_exfat
+Fetching project platform_packages_services_Telephony
+Fetching project platform_system_bt
+Fetching project platform_external_busybox
+Fetching project platform_vendor_qcom-opensource_dataservices
+Fetching project platform_external_connectivity
+Fetching project platform_packages_apps_OmniStyle
+Fetching project platform_packages_apps_Settings
+Fetching project platform_packages_services_Telecomm
+Fetching project android_hardware_qcom_audio
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_hardware_qcom_keymaster
+Fetching project platform_hardware_ril
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_packages_apps_PackageInstaller
+Fetching project android_external_libnfc-nci
+Fetching project android_hardware_qcom_camera
+Fetching project platform_external_e2fsprogs
+Fetching project platform_frameworks_base
+Fetching project platform_external_tinycompress
+Fetching project platform_external_ant-wireless_ant_native
+Fetching project device_qcom_sepolicy
+Fetching project platform_vendor_aosip
+Fetching project platform_external_ant-wireless_antradio-library
+Fetching project platform_vendor_qcom-opensource_dpm
+Fetching project platform_prebuilts_build-tools
+Fetching project platform_system_media
+Fetching project platform_build
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_external_fuse
+Fetching project platform_hardware_qcom_bt
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Set cache size limit to 25.0 GB
+build/core/product_config.mk:239: *** Can not locate config makefile for product "aosip_bacon".  Stop.
+BUILD SUCCESFUL
+sending incremental file list
+
+sent 111 bytes  received 12 bytes  246.00 bytes/sec
+total size is 308,581,582  speedup is 2,508,793.35
+Stopping jack server
+Stopping background server
