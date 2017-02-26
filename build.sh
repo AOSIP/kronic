@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+unset device;
 export device=$1
 if [ -z $device ];
 	then
