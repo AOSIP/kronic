@@ -1,0 +1,155 @@
+including vendor/aosip/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+Fetching project platform_external_zlib
+Fetching project platform_packages_providers_MediaProvider
+Fetching project platform_system_vold
+Fetching project platform_vendor_qcom_opensource_bluetooth
+Fetching project device_qcom_common
+Fetching project platform_external_mksh
+Fetching project platform_system_qcom
+Fetching project platform_vendor_qcom-opensource_fm
+Fetching project platform_external_ntfs-3g
+Fetching project platform_external_fsck_msdos
+Fetching project platform_packages_apps_OwlsNest
+Fetching project platform_external_okhttp
+Fetching project platform_frameworks_av
+Fetching project platform_packages_apps_OmniSwitch
+Fetching project android_hardware_qcom_media
+Fetching project android_external_libncurses
+Fetching project platform_external_f2fs-tools
+Fetching project platform_packages_apps_Dialer
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_external_wpa_supplicant_8
+Fetching project platform_hardware_ril
+Fetching project platform_packages_inputmethods_LatinIME
+Fetching project platform_packages_providers_DownloadProvider
+Fetching project platform_system_netd
+Fetching project platform_system_core
+Fetching project platform_packages_apps_DUI
+Fetching project android_hardware_qcom_gps
+Fetching project platform_external_DUtils
+Fetching project TeamSubstratum/masquerade
+Fetching project android_hardware_broadcom_wlan
+Fetching project platform_build_kati
+Fetching project platform_system_extras
+Fetching project platform_frameworks_opt_telephony
+Fetching project platform_external_skia
+Fetching project platform_packages_apps_Bluetooth
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_hardware_ril
+Fetching project platform_external_tinyalsa
+Fetching project platform_frameworks_native
+Fetching project platform_hardware_libhardware
+Fetching project android_hardware_qcom_display
+Fetching project platform_art
+Fetching project platform_packages_providers_TelephonyProvider
+Fetching project platform_external_bash
+Fetching project platform_frameworks_support
+Fetching project platform_external_google
+Fetching project platform_packages_apps_CalendarWidget
+Fetching project platform_manifest
+Fetching project platform_packages_apps_Messaging
+Fetching project platform_packages_apps_LockClock
+Fetching project platform_hardware_ril
+Fetching project platform_bionic
+Fetching project platform_hardware_qcom_wlan
+Fetching project android_external_libnfc-nxp
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_system_sepolicy
+Fetching project platform_external_exfat
+Fetching project platform_packages_services_Telephony
+Fetching project platform_system_bt
+Fetching project platform_external_busybox
+Fetching project platform_vendor_qcom-opensource_dataservices
+Fetching project platform_external_connectivity
+Fetching project platform_packages_apps_OmniStyle
+Fetching project platform_packages_apps_Settings
+Fetching project platform_packages_services_Telecomm
+Fetching project android_hardware_qcom_audio
+Fetching project platform_hardware_qcom_keymaster
+Fetching project platform_hardware_ril
+Fetching project platform_hardware_qcom_wlan
+Fetching project platform_packages_apps_PackageInstaller
+Fetching project platform_hardware_qcom_bt
+Fetching project android_external_libnfc-nci
+Fetching project android_hardware_qcom_camera
+Fetching project platform_external_e2fsprogs
+Fetching project platform_frameworks_base
+Fetching project platform_external_tinycompress
+Fetching project platform_external_ant-wireless_ant_native
+Fetching project device_qcom_sepolicy
+Fetching project platform_vendor_aosip
+Fetching project platform_external_ant-wireless_antradio-library
+Fetching project platform_vendor_qcom-opensource_dpm
+Fetching project platform_prebuilts_build-tools
+Fetching project platform_system_media
+Fetching project platform_build
+Fetching project platform_hardware_qcom_bt
+Fetching project platform_external_fuse
+Fetching project platform_hardware_qcom_bt
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_bt found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_qcom_wlan found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+Shared project platform_hardware_ril found, disabling pruning.
+build/core/product_config.mk:244: *** _nic.PRODUCTS.[[vendor/aosip/products/aosip_shamu.mk]]: "device/motorola/shamu/aosp_shamu.mk" does not exist.  Stop.
+build/core/product_config.mk:244: *** _nic.PRODUCTS.[[vendor/aosip/products/aosip_shamu.mk]]: "device/motorola/shamu/aosp_shamu.mk" does not exist.  Stop.
+
+Fetching project device_moto_shamu
+Checking out files:  47% (21507/45674)   Checking out files:  48% (21924/45674)   Checking out files:  49% (22381/45674)   Checking out files:  50% (22837/45674)   Checking out files:  51% (23294/45674)   Checking out files:  52% (23751/45674)   Checking out files:  53% (24208/45674)   Checking out files:  54% (24664/45674)   Checking out files:  55% (25121/45674)   Checking out files:  56% (25578/45674)   Checking out files:  57% (26035/45674)   Checking out files:  58% (26491/45674)   Checking out files:  59% (26948/45674)   Checking out files:  60% (27405/45674)   Checking out files:  61% (27862/45674)   Checking out files:  62% (28318/45674)   Checking out files:  63% (28775/45674)   Checking out files:  64% (29232/45674)   Checking out files:  65% (29689/45674)   Checking out files:  66% (30145/45674)   Checking out files:  67% (30602/45674)   Checking out files:  68% (31059/45674)   Checking out files:  69% (31516/45674)   Checking out files:  70% (31972/45674)   Checking out files:  71% (32429/45674)   Checking out files:  71% (32765/45674)   Checking out files:  72% (32886/45674)   Checking out files:  73% (33343/45674)   Checking out files:  74% (33799/45674)   Checking out files:  75% (34256/45674)   Checking out files:  76% (34713/45674)   Checking out files:  77% (35169/45674)   Checking out files:  78% (35626/45674)   Checking out files:  79% (36083/45674)   Checking out files:  80% (36540/45674)   Checking out files:  81% (36996/45674)   Checking out files:  82% (37453/45674)   Checking out files:  83% (37910/45674)   Checking out files:  84% (38367/45674)   Checking out files:  85% (38823/45674)   Checking out files:  86% (39280/45674)   Checking out files:  87% (39737/45674)   Checking out files:  88% (40194/45674)   Checking out files:  89% (40650/45674)   Checking out files:  90% (41107/45674)   Checking out files:  90% (41521/45674)   Checking out files:  91% (41564/45674)   Checking out files:  92% (42021/45674)   Checking out files:  93% (42477/45674)   Checking out files:  94% (42934/45674)   Checking out files:  95% (43391/45674)   Checking out files:  96% (43848/45674)   Checking out files:  97% (44304/45674)   Checking out files:  98% (44761/45674)   Checking out files:  99% (45218/45674)   Checking out files: 100% (45674/45674)   Checking out files: 100% (45674/45674), done.
+
+Fetching project LineageOS/android_kernel_moto_shamu
+Fetching project DirtyUnicorns/android_vendor_motorola
+Device shamu not found. Attempting to retrieve device repository from AOSiP-Devices Github (http://github.com/AOSiP-Devices).
+Found repository: device_moto_shamu
+Checking branch info
+Calculated revision: n-mr1
+Adding dependency:
+Repository: device_moto_shamu
+Branch: n-mr1
+Remote: devices
+Path: device/moto/shamu
+
+Syncing repository to retrieve project.
+Repository synced!
+Looking for dependencies
+Adding dependencies to manifest
+Adding dependency:
+Repository: LineageOS/android_kernel_moto_shamu
+Branch: cm-14.1
+Remote: github
+Path: kernel/motorola/shamu
+
+Adding dependency:
+Repository: DirtyUnicorns/android_vendor_motorola
+Branch: n7x
+Remote: github
+Path: vendor/motorola
+
+Syncing dependencies
+Looking for dependencies
+Looking for dependencies
+Done
+build/core/product_config.mk:244: *** _nic.PRODUCTS.[[vendor/aosip/products/aosip_shamu.mk]]: "device/motorola/shamu/aosp_shamu.mk" does not exist.  Stop.
+
+** Don't have a product spec for: 'aosip_shamu'
+** Do you have the right repo manifest?
+
+Set cache size limit to 25.0 GB
+build/core/product_config.mk:244: *** _nic.PRODUCTS.[[vendor/aosip/products/aosip_bacon.mk]]: "device/oneplus/bacon/bacon.mk" does not exist.  Stop.
+BUILD SUCCESFUL
+sending incremental file list
+AOSiP-5.5-Weekly-bacon-20170224.zip
+AOSiP-5.5-Weekly-bacon-20170224.zip.md5sum
+
+sent 308,657,115 bytes  received 54 bytes  123,462,867.60 bytes/sec
+total size is 308,581,582  speedup is 1.00
+Stopping jack server
+Stopping background server
