@@ -12,7 +12,7 @@ mkdir -pv ./kronic/logs/${device};
 . build/envsetup.sh >> $logfile;
 rm -rf .repo/local_manifests;
 ./sync.sh >> $logfile;
-lunch aosip_$device-userdebug
+lunch aosip_$device-userdebug 2>&1 | tee -a $logfile
 export USE_CCACHE=1
 export CCACHE_DIR=${HOME}/.ccache-${device}
 ccache -M 25G >> $logfile
